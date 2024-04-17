@@ -1,0 +1,31 @@
+.contacts {
+    background-image: url(../image/contacts__fon.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 300px;
+}
+.contacts-block {
+    padding: 51px 0 50px;
+    text-align: center;
+}
+.contacts-block__title {
+    color: $color-white;
+font-size: 50px;
+font-weight: 400;
+line-height: 1.2;
+text-transform: uppercase;
+margin-bottom: 30px;
+}
+.contacts-block__phone {
+    color: $accent-color;
+font-size: 50px;
+font-weight: 400;
+line-height: 1.2;
+margin-bottom: 25px;
+}
+.contacts-block__subtitle {
+    color: $color-white;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.2;
+}

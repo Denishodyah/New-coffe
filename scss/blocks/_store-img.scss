@@ -1,0 +1,14 @@
+
+.store-img {
+    position: absolute;
+    top: 0;
+    right: 50px;
+    @media  (max-width: 1290px) 
+    {position: static;
+        
+    }
+}
+.store-img__image {
+    max-width:100%;
+    height:auto;
+}

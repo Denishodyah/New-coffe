@@ -1,0 +1,39 @@
+
+.story-coffe__title {
+    color: $button-bg;
+font-size: 16px;
+font-weight: 400;
+text-transform: uppercase;
+margin-bottom: 12px;
+}
+.story-coffe__subtitle {
+    color: $color-white;
+    font-family: $font-time;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+margin-bottom: 12px;
+max-width: 186px;
+}
+.story-coffe__text {
+    color: $color-text;
+font-size: 20px;
+font-weight: 400;
+line-height: 1.2;
+max-width: 340px;
+margin-bottom: 30px;
+}
+.story-coffe__link {
+    white-space: nowrap;
+    text-transform: uppercase;
+    height: 56px;
+    padding-inline: 32px;
+    display: inline-flex;
+    align-items: center;
+    background-color: $accent-color;
+    border: none;
+    &:hover {
+        background: $button-bg;
+        color: $color-white;
+    }
+}

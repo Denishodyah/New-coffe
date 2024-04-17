@@ -1,0 +1,13 @@
+.menu {
+    padding: 103px 0 99px 0;
+}
+.menu-block {
+    display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+@media  (max-width: 1150px) {
+    justify-content: space-evenly;
+    
+}
+}
+

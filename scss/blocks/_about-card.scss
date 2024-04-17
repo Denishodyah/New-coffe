@@ -1,0 +1,39 @@
+.about-block {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 300px));
+    gap: 20px;
+}
+.about-card {
+    background: #242424;
+    padding:32px 26px 35px ;
+}
+.about-card__top {
+    display: flex;
+    column-gap: 27px;
+}
+.about-card__img {
+    margin-bottom: 17px;
+}
+.about-card__name {
+    color: $accent-color;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.2;
+margin-bottom: 7px;
+}
+.about-card__text {
+    color: $color-white;
+font-size: 16px;
+font-weight: 400;
+line-height: 1.2;
+text-transform: capitalize;
+margin-bottom: 6px;
+max-width: 248px;
+}
+.about-card__datetime {
+    color: rgba(255, 255, 255, 0.5);
+font-size: 16px;
+font-weight: 400;
+line-height: 1.2;
+text-transform: capitalize;
+}

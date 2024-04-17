@@ -1,0 +1,10 @@
+.story {
+    position: relative;
+    padding: 150px 0 97px 0;
+}
+.story__inner {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+}
+
+
